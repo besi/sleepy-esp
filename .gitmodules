@@ -1,0 +1,6 @@
+[submodule "pcb/lib/c3-pico"]
+	path = pcb/lib/c3-pico
+	url = https://github.com/besi/kicad-c3-pico
+[submodule "pcb/lib/as12ap"]
+	path = pcb/lib/as12ap
+	url = https://github.com/besi/kicad-as12ap
