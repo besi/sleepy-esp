@@ -475,7 +475,7 @@
       "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "sleepynotes-esp-pcb.step",
       "svg": "",
       "vrml": ""
     },
