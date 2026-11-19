@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.75,
+          "drill": 1.0,
           "height": 2.5,
           "width": 2.0
         },
@@ -52,7 +52,13 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|117173684|122230067|3e52c70b-f44c-42c6-a672-5e2da44dde5c|7cad82a4-62e1-4297-b050-959c3a33bb52",
+        "clearance|80936929|121898274|e184d44f-b382-489c-97b0-d41727890241|02b68ed8-34c4-4dfe-a74a-d3295ea8e3af",
+        "courtyards_overlap|67250001|90787007|3e89e56c-691f-444a-aa6c-fb70d31a9549|a76981b9-d47f-496e-aef7-67f66c0e9b5f",
+        "courtyards_overlap|76950001|66750001|3e89e56c-691f-444a-aa6c-fb70d31a9549|9f7361ea-a94a-4e07-ab2e-75f063bd019c",
+        "courtyards_overlap|98626715|90567706|3e89e56c-691f-444a-aa6c-fb70d31a9549|577e6bbf-6ce3-4266-aecf-f72b2f593a35"
+      ],
       "meta": {
         "version": 2
       },
@@ -90,7 +96,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -450,7 +456,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 2.0,
-        "via_drill": 0.8,
+        "via_drill": 1.1,
         "wire_width": 6
       }
     ],
@@ -466,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plot",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
