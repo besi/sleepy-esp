@@ -456,203 +456,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2436,6 +2239,232 @@
 				)
 			)
 		)
+		(symbol "rx480:rx480"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -4.445 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RX480E"
+				(at 5.715 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "rx480:rx480"
+				(at 16.51 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://qiachip.com/products/2x-learning-code-receiver-module-for-rf-433mhz-rx-480-e-remote-control-arduino-chip-28131mm-pcb"
+				(at 8.001 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "rx480_0_1"
+				(rectangle
+					(start -4.445 7.62)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.81 -1.905)
+					(mid -1.6195 -0.2085)
+					(end -1.27 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -0.635)
+					(mid -2.5174 0.6895)
+					(end -2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.175 -2.54)
+					(mid -0.667 -0.975)
+					(end 0 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "rx480_1_1"
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "VT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 194.31 118.11)
@@ -2687,6 +2716,47 @@
 		)
 		(uuid "ef6d8124-4b38-48db-8d8c-2a362b46eb63")
 	)
+	(text_box "Only RTC IO can be used as a source for external wake\n  source. They are pins: 0,2,4,12-15,25-27,32-39."
+		(exclude_from_sim no)
+		(at 25.4 -2.54 0)
+		(size 66.04 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6716b4fe-96f5-4f16-a994-2ee2afd6058e")
+	)
+	(global_label "BUTTON_A"
+		(shape input)
+		(at 97.79 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00fdd8ab-33c5-4b62-b398-dc1d427488dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.5519 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 152.4 92.71 0)
@@ -2819,6 +2889,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_C"
+		(shape input)
+		(at 97.79 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c40b976-6e5c-4287-a6de-f54f11f5cb8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.3705 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NEOPIXEL_OUT"
 		(shape output)
 		(at 69.85 88.9 0)
@@ -2863,6 +2955,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_D"
+		(shape input)
+		(at 62.23 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6376e151-1b48-41e1-8296-5d5338fb7063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.6495 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LDR"
 		(shape input)
 		(at 88.9 124.46 180)
@@ -2887,7 +3001,7 @@
 	)
 	(global_label "LDR"
 		(shape input)
-		(at 116.84 97.79 180)
+		(at 97.79 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2897,7 +3011,7 @@
 		)
 		(uuid "6c44619f-2adf-4723-8015-4f46848a47d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2867 97.79 0)
+			(at 91.2367 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,9 +3065,9 @@
 			)
 		)
 	)
-	(global_label "VBAT"
+	(global_label "BUTTON_B"
 		(shape input)
-		(at 116.84 90.17 180)
+		(at 97.79 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2961,9 +3075,9 @@
 			)
 			(justify right)
 		)
-		(uuid "855b1c11-bfe5-47eb-a3ae-5d34886e8854")
+		(uuid "82193bcd-6652-45bc-9c0c-c9f2278ea614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.44 90.17 0)
+			(at 85.3705 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,31 +3087,31 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "BUTTON_B"
 		(shape input)
-		(at 209.55 91.44 180)
+		(at 62.23 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8f17ac67-0cda-412b-a80c-bfe312b671a3")
+		(uuid "8f874eba-bf26-4e7d-a547-f3a9710d7560")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.9967 91.44 0)
+			(at 74.6495 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "NEOPIXEL"
 		(shape input)
-		(at 97.79 40.64 180)
+		(at 97.79 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3007,7 +3121,7 @@
 		)
 		(uuid "91288ec1-ec75-4ce7-922a-0d29e5586061")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.7334 40.64 0)
+			(at 85.7334 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,6 +3166,28 @@
 		(uuid "baf1a7ed-95b2-4889-87c0-1e2577f2cae6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 183.9467 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_D"
+		(shape input)
+		(at 97.79 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0086519-a1c9-44e3-8a82-c40a085068be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.3705 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,9 +3263,53 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "BUTTON_ANY"
 		(shape input)
-		(at 209.55 88.9 180)
+		(at 62.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d46e0a2b-47ca-46a0-88d6-67cb65bfd7f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.8872 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_C"
+		(shape input)
+		(at 62.23 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4921975-bbcb-4f17-9728-f24dffeaf4f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.6495 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_ANY"
+		(shape input)
+		(at 97.79 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3137,14 +3317,36 @@
 			)
 			(justify right)
 		)
-		(uuid "f5217de3-5702-43a0-9838-d6fcf1392e75")
+		(uuid "d502916c-ba4e-4f9d-869f-a333dcd47923")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.0572 88.9 0)
+			(at 83.1328 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_A"
+		(shape input)
+		(at 62.23 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f27e9dc9-c1fd-4016-b93e-32b4392f12ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.4681 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3717,6 +3919,91 @@
 		)
 	)
 	(symbol
+		(lib_id "rx480:rx480")
+		(at 54.61 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb1161d-04fd-411a-82db-eb277fd0e48d")
+		(property "Reference" "U2"
+			(at 49.53 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RX480E"
+			(at 60.325 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "rx480:rx480"
+			(at 71.12 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://qiachip.com/products/2x-learning-code-receiver-module-for-rf-433mhz-rx-480-e-remote-control-arduino-chip-28131mm-pcb"
+			(at 62.611 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.975 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dcbdde6-687b-44fc-8ae9-ca44837bbe58")
+		)
+		(pin "2"
+			(uuid "b569f316-b493-438b-869a-47d948a6dbcf")
+		)
+		(pin "3"
+			(uuid "97b62eaf-a1cd-427d-b39f-31c941d13054")
+		)
+		(pin "4"
+			(uuid "261a2330-ba1a-45d1-9e43-f2dd1155eef1")
+		)
+		(pin "5"
+			(uuid "eaf3fba6-8293-4b82-8816-7c0cc598e611")
+		)
+		(pin "6"
+			(uuid "9860a0a1-fcef-4f46-a376-9695618edd32")
+		)
+		(pin "7"
+			(uuid "4c8bb616-93a9-4711-a10b-0056ad936191")
+		)
+		(instances
+			(project ""
+				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:SK6812")
 		(at 209.55 125.73 0)
 		(unit 1)
@@ -3853,81 +4140,6 @@
 			(project "sleepynotes-esp"
 				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 214.63 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42877031-547e-449e-a30e-876c44831dcb")
-		(property "Reference" "J1"
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 214.63 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a70ce836-affc-4e73-9e9e-86c700ecf7a9")
-		)
-		(pin "4"
-			(uuid "9ba86eed-be39-4b45-b570-dcbdd86d7408")
-		)
-		(pin "2"
-			(uuid "59ed8a21-0c57-4413-b895-3e553eed7a2e")
-		)
-		(pin "1"
-			(uuid "69250035-8119-4884-b09c-d2781c06e9e7")
-		)
-		(instances
-			(project ""
-				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4137,73 +4349,6 @@
 			(project "sleepynotes-esp"
 				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 209.55 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63a68449-b20b-4481-832f-a90ef2fb210d")
-		(property "Reference" "#PWR09"
-			(at 213.36 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 205.74 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 209.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "098931c3-d304-4b81-9c7d-0b0bdb701347")
-		)
-		(instances
-			(project "sleepynotes-esp"
-				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4592,73 +4737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 209.55 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1219b1b-62a6-4772-8278-9822696177f6")
-		(property "Reference" "#PWR02"
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb8fa162-a5f8-46c7-b7fd-d8c3e7d9c1ed")
-		)
-		(instances
-			(project ""
-				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
 		(at 224.79 125.73 0)
 		(unit 1)
@@ -4729,6 +4807,72 @@
 			(project "sleepynotes-esp"
 				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be32350a-4225-465d-b811-48d78ef411cf")
+		(property "Reference" "#PWR03"
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 54.61 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94f330c8-c061-47d5-b233-d586ab4ee5dc")
+		)
+		(instances
+			(project "sleepynotes-esp"
+				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5285,6 +5429,72 @@
 			(project "sleepynotes-esp"
 				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb7a3415-f925-46e0-98c3-6f02c3a5d4bc")
+		(property "Reference" "#PWR01"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac668c48-247e-4f08-8bf0-000ce7896630")
+		)
+		(instances
+			(project "sleepynotes-esp"
+				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
