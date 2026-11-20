@@ -4,4 +4,5 @@
   (lib (name "sd-card")(type "KiCad")(uri "${KIPRJMOD}/lib/sd-card/sd-card.pretty")(options "")(descr ""))
   (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/lib/esp32-wemos-d1-mini/esp32-wemos-d1-mini.pretty")(options "")(descr ""))
   (lib (name "rx480")(type "KiCad")(uri "${KIPRJMOD}/lib/rx480/rx480.pretty")(options "")(descr ""))
+  (lib (name "bme280")(type "KiCad")(uri "${KIPRJMOD}/lib/bme280/bme280.pretty")(options "")(descr ""))
 )

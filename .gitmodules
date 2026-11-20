@@ -10,3 +10,6 @@
 [submodule "pcb/lib/rx480"]
 	path = pcb/lib/rx480
 	url = https://github.com/besi/kicad-rx480
+[submodule "pcb/lib/bme280"]
+	path = pcb/lib/bme280
+	url = https://github.com/besi/kicad-bme280
