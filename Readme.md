@@ -5,17 +5,17 @@
 ## Pinout
 
 | Function   | GPIO |
-|------------|------|
-| Neopixel   | 14   |
-| Button A   | 2    |
-| Button B   | 0    |
-| Button C   | 4    |
-| Button D   | 12   |
+|:-----------|-----:|
+| Button A   | 16   |
+| Button B   | 2    |
+| Button C   | 0    |
+| Button D   | 4    |
 | Button Any | 21   |
-| LDR        | 36   |
-| SPI CS     | 33   |
-| SPI CLK    | 35   |
-| SPI MISO   | 39   |
-| SPI MOSI   | 34   |
-| SDA        | 09   |
+| SDA        | 9    |
 | SCL        | 10   |
+| Neopixel   | 14   |
+| SPI CS     | 12   |
+| SPI MOSI   | 32   |
+| SPI MISO   | 27   |
+| SPI CLK    | 25   |
+| LDR        | 36   |
