@@ -1,3 +1,14 @@
+### LDR
+
+from machine import ADC, Pin
+from time import sleep
+adc = ADC(Pin(36))
+
+while True:
+    print(adc.read())
+    sleep(.2)
+
+
 ### Wireless button rx480
 from machine import Pin
 from time import sleep
