@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "copper_edge_clearance|77963680|61180981|0408ef37-c028-4a4f-ae3a-b7d4289f3c53|bbaa7595-dc85-40ad-b336-c212df9dcb6d",
-        "copper_edge_clearance|77975839|63412015|0408ef37-c028-4a4f-ae3a-b7d4289f3c53|cafe4d4e-e2e1-4513-885b-c845edabb8bb"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

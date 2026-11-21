@@ -2637,9 +2637,9 @@
 					)
 				)
 				(pin output line
-					(at 7.62 -2.54 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
-					(name "D"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2647,24 +2647,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2682,6 +2664,24 @@
 							)
 						)
 					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "5"
 						(effects
 							(font
@@ -2691,9 +2691,9 @@
 					)
 				)
 				(pin output line
-					(at 7.62 5.08 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2996,7 +2996,7 @@
 	)
 	(global_label "BUTTON_A"
 		(shape input)
-		(at 78.74 71.12 180)
+		(at 78.74 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3006,7 +3006,7 @@
 		)
 		(uuid "00fdd8ab-33c5-4b62-b398-dc1d427488dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.5019 71.12 0)
+			(at 66.5019 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3128,7 @@
 	)
 	(global_label "BUTTON_C"
 		(shape input)
-		(at 78.74 48.26 180)
+		(at 78.74 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3138,7 +3138,7 @@
 		)
 		(uuid "4c40b976-6e5c-4287-a6de-f54f11f5cb8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3205 48.26 0)
+			(at 66.3205 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3348,7 @@
 	)
 	(global_label "BUTTON_B"
 		(shape input)
-		(at 78.74 50.8 180)
+		(at 78.74 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3358,7 +3358,7 @@
 		)
 		(uuid "82193bcd-6652-45bc-9c0c-c9f2278ea614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3205 50.8 0)
+			(at 66.3205 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 	)
 	(global_label "BUTTON_D"
 		(shape input)
-		(at 78.74 53.34 180)
+		(at 78.74 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3534,7 +3534,7 @@
 		)
 		(uuid "c0086519-a1c9-44e3-8a82-c40a085068be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.3205 53.34 0)
+			(at 66.3205 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

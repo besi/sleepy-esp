@@ -6,10 +6,10 @@
 | Function            | GPIO |
 |:--------------------|-----:|
 | Neopixel            | 14   |
-| Wireless Button A   | 16   |
-| Wireless Button B   |  2   |
-| Wireless Button C   |  0   |
-| Wireless Button D   |  4   |
+| Wireless Button A   |  4   |
+| Wireless Button B   |  0   |
+| Wireless Button C   |  2   |
+| Wireless Button D   | 16   |
 | Wireless Button Any | 21   |
 | I2C SDA             |  9   |
 | I2C SCL             | 10   |
