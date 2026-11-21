@@ -18,8 +18,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -16.51 15.24 0)
+			(property "Reference" "J2"
+				(at 0.635 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -27,15 +27,14 @@
 				)
 			)
 			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
+				(at 0.635 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "sd-card:sd-card"
 				(at 29.21 7.62 0)
 				(effects
 					(font
@@ -268,7 +267,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin input clock
 					(at -22.86 -2.54 0)
 					(length 3.81)
 					(name "CLK"
@@ -304,7 +303,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -22.86 -7.62 0)
 					(length 3.81)
 					(name "DAT0"
@@ -1256,7 +1255,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 -50.8 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1264,7 +1263,7 @@
 				)
 			)
 			(property "Value" "esp32-wemos-d1-mini"
-				(at 5.08 -59.69 0)
+				(at 1.778 -66.802 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1361,10 +1360,25 @@
 						)
 					)
 				)
-				(pin bidirectional line
+			)
+			(symbol "esp32-wemos-d1-mini_0_1"
+				(rectangle
+					(start -10.16 -1.27)
+					(end 11.43 -64.77)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "esp32-wemos-d1-mini_1_0"
+				(pin input line
 					(at -12.7 -45.72 0)
 					(length 2.54)
-					(name "IO_36/SVP/A0"
+					(name "I_36/SVP/A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1379,10 +1393,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 -48.26 0)
 					(length 2.54)
-					(name "IO_39/SVN"
+					(name "I_39/SVN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1395,19 +1409,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "esp32-wemos-d1-mini_0_1"
-				(rectangle
-					(start -10.16 -1.27)
-					(end 11.43 -64.77)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -1430,10 +1431,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 -40.64 0)
 					(length 2.54)
-					(name "IO_34"
+					(name "I_34"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1811,7 +1812,7 @@
 				(pin bidirectional line
 					(at -12.7 -7.62 0)
 					(length 2.54)
-					(name "IO_04"
+					(name "IO_04/BOOT!"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1883,7 +1884,7 @@
 				(pin bidirectional line
 					(at -12.7 -5.08 0)
 					(length 2.54)
-					(name "IO_02"
+					(name "IO_02/LED/B!"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1988,10 +1989,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -12.7 -43.18 0)
 					(length 2.54)
-					(name "IO_35"
+					(name "I_35"
 						(effects
 							(font
 								(size 1.27 1.27)
