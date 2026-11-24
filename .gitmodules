@@ -1,6 +1,3 @@
-[submodule "pcb/lib/as12ap"]
-	path = pcb/lib/as12ap
-	url = https://github.com/besi/kicad-as12ap
 [submodule "pcb/lib/sd-card"]
 	path = pcb/lib/sd-card
 	url = https://github.com/besi/kicad-sd-card
