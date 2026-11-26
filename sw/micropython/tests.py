@@ -19,7 +19,7 @@ class TestStringMethods(unittest.TestCase):
         p.put('HID-00-00-17-00-00-00-00-00')
         p.put('HID-00-00-00-00-00-00-00-00')
 
-        self.assertEqual(p.read(), 'wert')
+        self.assertEqual("wert", p.read())
 
     def test_uppercase_and_space(self):
         p = Parser()
@@ -32,7 +32,7 @@ class TestStringMethods(unittest.TestCase):
         p.put('HID-20-00-04-00-00-00-00-00')
         p.put('HID-20-00-00-00-00-00-00-00')
 
-        self.assertEqual(p.read(), 'A A')
+        self.assertEqual('A A', p.read())
 
 
 def test_all_uppercase(self):
@@ -49,7 +49,7 @@ def test_all_uppercase(self):
         p.put('HID-02-00-00-00-00-00-00-00')
         self.marker(p)
 
-        self.assertEqual(p.read(), 'TODO')
+        self.assertEqual('TODO', p.read())
 
 def testWeirdMessages(self):
         p = Parser()
@@ -74,7 +74,7 @@ def testWeirdMessages(self):
         self.marker(p)
         p.put('HID-02-04-04-00-00-00-00-00\n')
         self.marker(p)
-        self.assertEqual(p.read(), 'A')
+        self.assertEqual('A', p.read())
 
         self.marker(p)
 
