@@ -21,8 +21,21 @@ class TestStringMethods(unittest.TestCase):
 
         self.assertEqual(p.read(), 'wert')
 
+    def test_uppercase_and_space(self):
+        p = Parser()
+        self.marker(p)
+        p.put('HID-20-00-00-00-00-00-00-00')
+        p.put('HID-20-00-04-00-00-00-00-00')
+        p.put('HID-20-00-00-00-00-00-00-00')
+        p.put('HID-20-00-2c-00-00-00-00-00')
+        p.put('HID-20-00-00-00-00-00-00-00')
+        p.put('HID-20-00-04-00-00-00-00-00')
+        p.put('HID-20-00-00-00-00-00-00-00')
 
-    def test_all_uppercase(self):
+        self.assertEqual(p.read(), 'A A')
+
+
+def test_all_uppercase(self):
         p = Parser()
         self.marker(p)
         p.put('HID-02-00-00-00-00-00-00-00')

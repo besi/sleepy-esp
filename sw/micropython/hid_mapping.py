@@ -60,7 +60,7 @@ mapping = {
     0x2a: "{BACKSPACE}",
     0x39: "{CAPSLOCK}",
     0x28: "{ENTER}",
-    0x2c: "{SPACE}",
+    0x2c: " ",
     0x2b: "{TAB}",
     0xfd: "",
     0x50: "{LEFT}",
@@ -129,5 +129,6 @@ uppercase_mapping = {
     0x42: "{F9}",
     0x43: "{F10}",
     0x44: "{F11}",
-    0x45: "{F12}"
+    0x45: "{F12}",
+    0x2c: " "
 }
