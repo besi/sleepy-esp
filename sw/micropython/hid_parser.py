@@ -1,7 +1,5 @@
 from hid_mapping import mapping, uppercase_mapping
 class Parser(object):
-    NEW_KEY_MARKER = 'HID-00-00-00-00-00-00-00-00'
-    SHIFT_MARKER = 'HID-02-00-00-00-00-00-00-00'
 
     @staticmethod
     def map(byte, modifier=None):
@@ -29,6 +27,10 @@ class Parser(object):
             if k not in self.new_keys:
                 self.new_keys.append(k)
 
+    def flushable(self, string):
+        if string == 'HID-00-00-00-00-00-00-00-00' or string == 'HID-02-00-00-00-00-00-00-00' or string == 'HID-20-00-00-00-00-00-00-00':
+            return True
+        return False
 
 
     def extract(self, string):
@@ -57,7 +59,7 @@ class Parser(object):
 
     def put(self, string):
 
-        if string == self.NEW_KEY_MARKER or string == self.SHIFT_MARKER:
+        if self.flushable(string):
             if not self.dirty:
                 self.flush()
 
