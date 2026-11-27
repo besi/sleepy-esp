@@ -26,11 +26,11 @@ debug = False
 while debug:
     line = uart.readline()
     if line: print(line.decode().strip())
-    time.sleep(0.2)
+    sleep(0.2)
 
 text = ''
 row = 0
-row_height = 10
+row_height = 9
 
 while True:
     try:
