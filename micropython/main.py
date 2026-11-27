@@ -3,12 +3,14 @@ from time import sleep
 from machine import Pin, UART
 from machine import SoftI2C
 from hid_parser import Parser
+from neopixel import NeoPixel
 
 import ssd1306
 
 uart = UART(1, baudrate=115200, tx=Pin(6), rx=Pin(5), timeout=3)
 brightness = 0
 i2c = SoftI2C(scl=Pin(10), sda=Pin(8))
+led = NeoPixel(Pin(7),1)
 
 oled_width = 128
 oled_height = 64
@@ -19,6 +21,9 @@ oled.show()
 sleep(0.5)
 oled.fill(0)
 oled.show()
+
+brightness = 0
+max_brightness = 8
 
 p = Parser()
 debug = False
@@ -33,6 +38,17 @@ row = 0
 row_height = 9
 
 
+def setBrightness(delta):
+    global brightness
+    brightness = min(brightness + delta,8)
+    brightness = max(brightness, 0)
+    
+
+    v = (brightness * 255) // max_brightness
+    led.fill((v,v,v))
+    led.write()
+    print(f"After {brightness} and value {v} and delta {delta}")
+setBrightness(0)
 with open("notes.txt", "a") as file:
 
     while True:
@@ -48,7 +64,13 @@ with open("notes.txt", "a") as file:
                     s = ''
                     oled.fill(0)
                     text = ''
-                if s == '{ENTER}':
+                elif s == '{BRIGHTNESS_UP}':
+                    setBrightness(+1)
+                    s = ''
+                elif s == '{BRIGHTNESS_DOWN}':
+                    setBrightness(-1)
+                    s = ''
+                elif s == '{ENTER}':
                     file.write("\n" + text)
                     print("")
                     s = ''
