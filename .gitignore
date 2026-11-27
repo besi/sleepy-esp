@@ -45,3 +45,8 @@ plot
 fab
 /pcb/sleepynotes-esp-pcb.step
 *place_footprints*
+**/build
+**cmake-build**
+.vscode
+/venv
+**/sdkconfig
