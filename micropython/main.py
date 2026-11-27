@@ -42,12 +42,10 @@ def setBrightness(delta):
     global brightness
     brightness = min(brightness + delta,8)
     brightness = max(brightness, 0)
-    
-
     v = (brightness * 255) // max_brightness
     led.fill((v,v,v))
     led.write()
-    print(f"After {brightness} and value {v} and delta {delta}")
+
 setBrightness(0)
 with open("notes.txt", "a") as file:
 
