@@ -57,11 +57,13 @@ with open("notes.txt", "a") as file:
                 p.put(line)
                 s = p.read()
                 s = s.replace('{SPACE}', ' ')
-                if s == '{BACKSPACE}':
-                    row = 0
+                if s=='{ESC}':
                     s = ''
                     oled.fill(0)
-                    text = ''
+                    oled.show()
+                elif s == '{BACKSPACE}':
+                    s = ''
+                    text = text[:-1]
                 elif s == '{BRIGHTNESS_UP}':
                     setBrightness(+1)
                     s = ''
