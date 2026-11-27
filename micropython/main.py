@@ -58,7 +58,10 @@ with open("notes.txt", "a") as file:
                 s = p.read()
                 s = s.replace('{SPACE}', ' ')
                 if s=='{ESC}':
+                    file.write("\n" + text)
+                    text = ''
                     s = ''
+                    row = 0
                     oled.fill(0)
                     oled.show()
                 elif s == '{BACKSPACE}':
