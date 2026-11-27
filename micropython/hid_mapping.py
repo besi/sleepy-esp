@@ -47,6 +47,7 @@ mapping = {
     0x37: ".",
     0x38: "-",
     0x64: "§",
+    0x29: "{ESC}",
     0x3a: "{BRIGHTNESS_DOWN}",
     0x3b: "{BRIGHTNESS_UP}",
     0x3c: "{EXPOSE}",
