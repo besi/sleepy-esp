@@ -37,6 +37,9 @@ text = ''
 row = 0
 row_height = 9
 
+def log(file,text):
+    with open(file, 'a') as pf:
+        pf.write(text)
 
 def setBrightness(delta):
     global brightness
@@ -47,44 +50,45 @@ def setBrightness(delta):
     led.write()
 
 setBrightness(0)
-with open("notes.txt", "a") as file:
 
-    while True:
-        try:
-            line = uart.readline()
-            if line:
-                line = line.decode('utf-8').strip()
-                p.put(line)
-                s = p.read()
-                s = s.replace('{SPACE}', ' ')
-                if s=='{ESC}':
-                    file.write("\n" + text)
-                    text = ''
-                    s = ''
-                    row = 0
-                    oled.fill(0)
-                    oled.show()
-                elif s == '{BACKSPACE}':
-                    s = ''
-                    text = text[:-1]
-                elif s == '{BRIGHTNESS_UP}':
-                    setBrightness(+1)
-                    s = ''
-                elif s == '{BRIGHTNESS_DOWN}':
-                    setBrightness(-1)
-                    s = ''
-                elif s == '{ENTER}':
-                    file.write("\n" + text)
-                    print("")
-                    s = ''
-                    text = ''
-                    row += row_height
+while True:
+    try:
+        line = uart.readline()
+        if line:
+            line = line.decode('utf-8').strip()
+            p.put(line)
+            s = p.read()
+            s = s.replace('{SPACE}', ' ')
+            if s=='{ESC}':
+                log('notes.txt', "\n" + text)
+                text = ''
+                s = ''
+                row = 0
+                oled.fill(0)
+                oled.show()
+            elif s == '{BACKSPACE}':
+                s = ''
+                text = text[:-1]
+            elif s == '{BRIGHTNESS_UP}':
+                setBrightness(+1)
+                s = ''
+            elif s == '{BRIGHTNESS_DOWN}':
+                setBrightness(-1)
+                s = ''
+            elif s == '{ENTER}':
+                log('notes.txt', "\n" + text)
+                print("")
+                s = ''
+                text = ''
+                row += row_height
 
-                text += s
-                oled.text(text, 0, row)
-                print(s, end='')
-            oled.show()
-            sleep(.01)
-        except Exception as e:
-            print(f"ERROR {e}")
-            file.write("\n" + text) # emergency write text to the file
+            text += s
+            oled.text(text, 0, row)
+            print(s, end='')
+        oled.show()
+        sleep(.01)
+    except Exception as e:
+        print(f"ERROR {e}")
+        log("error.log",f"ERROR {e} --- text: {text}")
+        log('notes.txt', "\n" + text)
+
