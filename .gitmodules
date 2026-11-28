@@ -10,3 +10,6 @@
 [submodule "pcb/lib/bme280"]
 	path = pcb/lib/bme280
 	url = https://github.com/besi/kicad-bme280
+[submodule "pcb/lib/esp32s3-supermini"]
+	path = pcb/lib/esp32s3-supermini
+	url = https://github.com/besi/kicad-esp32s3-supermini
