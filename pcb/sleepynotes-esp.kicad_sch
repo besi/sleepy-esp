@@ -3327,12 +3327,20 @@
 		(uuid "31571ae4-1a87-463f-af3d-46b22ebad215")
 	)
 	(no_connect
+		(at 105.41 74.93)
+		(uuid "34b2c060-a8eb-4a00-a9d7-e62a8a3c778a")
+	)
+	(no_connect
 		(at 132.08 77.47)
 		(uuid "399f0b17-67cd-446d-a7bc-921150398d30")
 	)
 	(no_connect
 		(at 48.26 36.83)
 		(uuid "3dbd9878-ecd2-4495-9c1c-0794c5cc5b4a")
+	)
+	(no_connect
+		(at 82.55 71.12)
+		(uuid "3dfaa571-53bf-46d8-afce-ab6de7632241")
 	)
 	(no_connect
 		(at 132.08 72.39)
@@ -3347,6 +3355,10 @@
 		(uuid "6e273757-cf74-4544-97e0-a28f14d2b0bf")
 	)
 	(no_connect
+		(at 105.41 95.25)
+		(uuid "735e8bb9-8055-4f48-be19-9bc0407475a4")
+	)
+	(no_connect
 		(at 33.02 62.23)
 		(uuid "7b3570ee-cf0b-4848-a6bf-31f9ba004687")
 	)
@@ -3359,16 +3371,32 @@
 		(uuid "81098934-9f70-4b05-af52-bbf744072ef8")
 	)
 	(no_connect
+		(at 105.41 97.79)
+		(uuid "834e7dd4-b36a-4e66-af21-0af870811651")
+	)
+	(no_connect
 		(at 58.42 57.15)
 		(uuid "84121dff-a919-425b-913f-7d883ddfbcc1")
+	)
+	(no_connect
+		(at 105.41 62.23)
+		(uuid "8a29d491-b85d-43d1-bda3-cf3b35f62399")
 	)
 	(no_connect
 		(at 132.08 74.93)
 		(uuid "8a7b8492-fc2f-4193-9d5d-09aac1859c87")
 	)
 	(no_connect
+		(at 105.41 69.85)
+		(uuid "8d58ad5f-024b-469e-9532-dc92fbaff3c2")
+	)
+	(no_connect
 		(at 132.08 80.01)
 		(uuid "8efa5c8f-6151-4aa5-9e65-6a2cdcba43bb")
+	)
+	(no_connect
+		(at 105.41 102.87)
+		(uuid "8fe80935-2fcd-4170-804f-8ed07d0eddf8")
 	)
 	(no_connect
 		(at 58.42 59.69)
@@ -3385,6 +3413,14 @@
 	(no_connect
 		(at 132.08 69.85)
 		(uuid "a8922ad8-ee04-4248-85d2-9fbb31017b09")
+	)
+	(no_connect
+		(at 105.41 52.07)
+		(uuid "b1306f6c-c031-448c-8360-2be4b8f6a7f5")
+	)
+	(no_connect
+		(at 105.41 72.39)
+		(uuid "c1d36e5d-4c41-4744-b1e9-6e18e96a97b0")
 	)
 	(no_connect
 		(at 58.42 54.61)
@@ -6679,70 +6715,6 @@
 			(project ""
 				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 252.73 116.84 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5008b2e-6e12-449a-bf0a-0af6dbb6eb0f")
-		(property "Reference" "H7"
-			(at 255.27 115.5699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 255.27 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 252.73 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "sleepynotes-esp"
-				(path "/7bf6c614-6dcd-404a-8e85-bd3b0e6914ce"
-					(reference "H7")
 					(unit 1)
 				)
 			)
